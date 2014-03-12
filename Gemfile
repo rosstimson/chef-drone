@@ -7,5 +7,5 @@ gem 'rubocop'
 
 group :integration do
   gem 'kitchen-vagrant'
-  gem 'test-kitchen'
+  gem 'test-kitchen', github: 'erikh/test-kitchen', branch: 'all_suite'
 end
