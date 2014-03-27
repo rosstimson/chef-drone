@@ -3,11 +3,11 @@ setup() {
 }
 
 @test "drone installed" {
-  which drone
+  command -v drone
 }
 
 @test "droned installed" {
-  which drone
+  command -v droned
 }
 
 @test "drone running" {
